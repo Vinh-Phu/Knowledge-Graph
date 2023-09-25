@@ -25,5 +25,5 @@ If you have data from VLSP 2020 please run :
 
 `python semeval_converter.py  --input_dir ./preprocessed_data/VLSP2020_RE_dev --output_dir ./data/VLSP2020_RE_SemEvalFormat`
 
-
-<h>Then using `Modeling.ipynb `for tranining model<h>
+## Traning
+Using Modeling.ipynb for training and testing model
