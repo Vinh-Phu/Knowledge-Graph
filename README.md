@@ -4,7 +4,7 @@ With the increasing growth of data, the demand for text retrieval and processing
 
 # Instruction
 
-### Yêu Cầu
+### Requirements
 
 - Python 3.7+
 - ```pip isntall requirements.txt```
