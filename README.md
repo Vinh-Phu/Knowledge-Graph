@@ -16,8 +16,7 @@ And Follow guide Zalo AI challenge for question answering dataset at : https://c
 
 ## Usage 
 
-If you have data from VLSP 2020 
-run 
+If you have data from VLSP 2020 please run :
 `python data_converter.py --overwrite_output_dir --input_dir ./data/VLSP2020_RE_training --output_dir preprocessed_data/VLSP2020_RE_training`
 
 `python data_converter.py --overwrite_output_dir --input_dir ./data/VLSP2020_RE_dev --output_dir preprocessed_data/VLSP2020_RE_dev`
@@ -25,3 +24,4 @@ run
 `python semeval_converter.py  --input_dir ./preprocessed_data/VLSP2020_RE_training --output_dir ./data/VLSP2020_RE_SemEvalFormat`
 
 `python semeval_converter.py  --input_dir ./preprocessed_data/VLSP2020_RE_dev --output_dir ./data/VLSP2020_RE_SemEvalFormat`
+Then using `Modeling.ipynb `for tranining model
